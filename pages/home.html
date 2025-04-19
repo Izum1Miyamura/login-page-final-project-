@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAITIO - Student Portal</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="internal-page">
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="../asset/logo-kaitio.png" alt="KAITIO Logo" class="nav-logo">
+            <span>KAITIO Student Portal</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="student-info.html"><i class="fas fa-user-graduate"></i> Student Info</a></li>
+            <li><a href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="welcome-section fade-in">
+            <h1>Welcome to KAITIO Student Portal</h1>
+            <p class="subtitle">Welcome back, Izumi Miyaura! Access your academic information, course materials, and more.</p>
+        </div>
+        
+        <div class="dashboard-grid">
+            <div class="dashboard-card quick-links fade-in-up">
+                <h3><i class="fas fa-link"></i> Quick Links</h3>
+                <ul class="quick-links-list">
+                    <li><a href="#"><i class="fas fa-book"></i> Course Registration</a></li>
+                    <li><a href="#"><i class="fas fa-calendar-alt"></i> Academic Calendar</a></li>
+                    <li><a href="#"><i class="fas fa-book-reader"></i> Library Resources</a></li>
+                    <li><a href="#"><i class="fas fa-map-marked-alt"></i> Campus Map</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> Student Email</a></li>
+                    <li><a href="#"><i class="fas fa-laptop"></i> Virtual Learning</a></li>
+                </ul>
+            </div>
+            
+            <div class="dashboard-card announcements fade-in-up">
+                <h3><i class="fas fa-bullhorn"></i> Announcements</h3>
+                <div class="announcements-list">
+                    <div class="announcement">
+                        <h4>New Semester Registration</h4>
+                        <p>Welcome to the new semester! Check your course schedule and complete registration.</p>
+                        <small><i class="far fa-clock"></i> Posted: Today</small>
+                    </div>
+                    <div class="announcement">
+                        <h4>Library Hours Extended</h4>
+                        <p>The KAITIO library will now be open until midnight during exam week.</p>
+                        <small><i class="far fa-clock"></i> Posted: Yesterday</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dashboard-card events fade-in-up">
+                <h3><i class="fas fa-calendar-week"></i> Upcoming Events</h3>
+                <div class="events-list">
+                    <div class="event">
+                        <h4>Student Orientation</h4>
+                        <p>New student orientation and campus tour</p>
+                        <small><i class="fas fa-map-marker-alt"></i> Next Week - Main Hall</small>
+                    </div>
+                    <div class="event">
+                        <h4>Technical Symposium</h4>
+                        <p>Annual KAITIO technical symposium with industry experts</p>
+                        <small><i class="fas fa-map-marker-alt"></i> April 25th - Seminar Hall</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-card stats fade-in-up">
+                <h3><i class="fas fa-chart-line"></i> Quick Stats</h3>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span class="stat-label">Current Semester</span>
+                        <span class="stat-value">2nd</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-certificate"></i>
+                        <span class="stat-label">Current Courses</span>
+                        <span class="stat-value">5</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-book"></i>
+                        <span class="stat-label">Department</span>
+                        <span class="stat-value">CS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="info-box">
+            <div class="info-box-header">
+                <h3><i class="fas fa-info-circle"></i> Important Information</h3>
+            </div>
+            <div class="info-box-content">
+                <div class="info-section">
+                    <h4><i class="fas fa-map-marker-alt"></i> Campus Location</h4>
+                    <p>KAITIO Campus, Ernakulam, Kerala - 682022</p>
+                </div>
+                
+                <div class="info-section">
+                    <h4><i class="fas fa-phone"></i> Contact Details</h4>
+                    <p>Phone: +91 484 1234567</p>
+                    <p>Email: info@kaitio.ac.in</p>
+                    <p>Office Hours: 9:00 AM - 5:00 PM (Mon-Fri)</p>
+                </div>
+                
+                <div class="info-section">
+                    <h4><i class="fas fa-link"></i> Quick Links</h4>
+                    <ul class="info-links">
+                        <li><a href="#"><i class="fas fa-graduation-cap"></i> Academic Calendar</a></li>
+                        <li><a href="#"><i class="fas fa-book"></i> Course Catalog</a></li>
+                        <li><a href="#"><i class="fas fa-file-alt"></i> Exam Schedule</a></li>
+                    </ul>
+                </div>
+                
+                <div class="info-section">
+                    <h4><i class="fas fa-shield-alt"></i> Resources</h4>
+                    <ul class="info-links">
+                        <li><a href="#"><i class="fas fa-file-contract"></i> Academic Policies</a></li>
+                        <li><a href="#"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                        <li><a href="#"><i class="fas fa-headset"></i> Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="info-box-footer">
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <p class="copyright">&copy; 2024 KAITIO Student Portal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/home.js"></script>
+</body>
+</html> 
